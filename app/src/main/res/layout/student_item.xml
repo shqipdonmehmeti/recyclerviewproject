@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvStudentId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="10"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/tvStudentFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Bill Gates"
+        android:layout_toRightOf="@id/tvStudentId"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/tvStudentAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="60"
+        android:layout_toRightOf="@id/tvStudentFullName"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/tvStudentAvgGrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="7.3"
+        android:layout_toRightOf="@id/tvStudentAge"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        />
+
+
+
+</RelativeLayout>
